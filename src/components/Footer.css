@@ -55,6 +55,10 @@
   font-weight: 500;
 }
 
+.footer-contact{
+  color: #ffffff;
+}
+
 
 /* Responsive design */
 @media (max-width: 768px) {
