@@ -1,0 +1,156 @@
+.about-section {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  box-sizing: border-box;
+  color: rgb(10, 10, 110);
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  border-radius: 12px;
+}
+
+.about-hero h2 {
+  color: rgb(10, 10, 110);
+}
+
+.about-hero h1 {
+  color: rgb(10, 10, 110);
+  font-family:serif;
+}
+
+.about-subtitle {
+  font-size: 20px;
+  letter-spacing: 1.8px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ececec;
+}
+
+.about-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+}
+
+.about-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-text p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.7;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+}
+
+
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 0;
+  flex-wrap: wrap; 
+  gap: 20px;
+}
+
+.stat-box {
+  text-align: center;
+  flex: 1 1 150px; 
+  margin: 0;
+}
+
+.stat-box h2 {
+  background-color: rgb(10, 10, 110);
+  color: white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.stat-box p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: rgb(30, 30, 30);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 30px 15px;
+  }
+
+  .about-title {
+    font-size: 32px;
+  }
+
+  .about-card {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .about-text,
+  .about-image {
+    width: 100%;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+
+  .stats-section {
+    flex-direction: column; 
+  }
+  .stat-box {
+    margin: 20px 0;
+    flex: 1 1 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 26px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+  }
+}
